@@ -89,6 +89,36 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-top: 3em;
 }
+#map_section {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 5em 0;
+}
+#map_section header {
+  padding: 0 0 1.5em 0;
+}
+#map_section header h2, #map_section header .view_more {
+  display: inline;
+}
+#map_section header h2 {
+  font-size: 1.75em;
+}
+#map_section header .add_a_tank {
+  float: right;
+  font-size: 0.8em;
+  margin: 0.75em 3.5% 0;
+}
+.row {
+  width: 100%;
+}
+.row .the_map {
+  width: 100%;
+  margin-right: 2.5%;
+}
+.row .the_map img {
+  width: 100%;
+  max-width: 97%;
+  border-radius: 0.5em;
+}
 #top_tanks {
   border-bottom: 1px solid #d4d4d4;
   padding: 5em 0;
@@ -247,6 +277,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.7em;
     margin-top: 2em;
   }
+  #map_section {
+    padding: 3em 0;
+  }
+  #map_section header {
+    padding: 0 0 1.5em 1.25%;
+  }
+  #map_section header h2 {
+    font-size: 1.5em;
+  }
+  #map_section header .add_a_tank {
+    margin: 0.75em 2.25% 0 0;
+  }
+  .row .the_map {
+    margin: 0 1.25% 2em 1.25%;
+  }
+  .row .the_map img {
+    width: 100%;
+    max-width: 97%;
+    border-radius: 0.5em;
+  }
   #top_tanks {
     padding: 3em 0;
   }
@@ -284,6 +334,13 @@ h1, h2, h3, h4, h5, h6 {
   #banner #banner_content_wrapper #content {
     width: 100%;
     margin: 1em auto 0 auto;
+  }
+  #map_section header {
+    margin-bottom: 2em;
+  }
+  .row .the_map {
+    margin: 0 auto 2em auto;
+    float: none;
   }
   #top_tanks header {
     margin-bottom: 2em;
